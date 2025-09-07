@@ -63,7 +63,8 @@
 
 <div align="center">
   
-![GitHub Snake Animation](https://raw.githubusercontent.com/abraxas0001/abraxas0001/output/snake.svg)
+![GitHub Snake Animation](https://github.com/abraxas0001/abraxas0001/blob/output/github-contribution-grid-snake.svg)
+
 
   
 </div>
