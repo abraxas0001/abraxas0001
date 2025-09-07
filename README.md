@@ -60,7 +60,7 @@
 
 ## 🏆 GitHub Activity
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=utkarshsingx&theme=shadow-brown&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&card_width=500&fire=832AEB)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=abraxas0001&theme=shadow-brown&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&card_width=500&fire=832AEB)](https://git.io/streak-stats)
 
   
 ## Watch my contributions get eaten by a snake 🐍
