@@ -60,13 +60,12 @@
 
 ## 🏆 GitHub Activity
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/abraxas0001/abraxas0001/blob/main/.github/workflows/snake.yml">
-    <source media="(prefers-color-scheme: light)" srcset="https://github.com/abraxas0001/abraxas0001/blob/main/.github/workflows/snake.yml">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/abraxas0001/abraxas0001/output/github-contribution-grid-snake.svg">
-  </picture>
-</div>
+[![GitHub Streak](https://streak-stats.demolab.com?user=utkarshsingx&theme=shadow-brown&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&card_width=500&fire=832AEB)](https://git.io/streak-stats)
+
+  
+## Watch my contributions get eaten by a snake 🐍
+
+<img src="https://raw.githubusercontent.com/utkarshsingx/utkarshsingx/output/snake.svg" alt="Snake animation" />
 
 ---
 
