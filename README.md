@@ -65,7 +65,7 @@
   
 ## Watch my contributions get eaten by a snake 🐍
 
-<img src="https://raw.githubusercontent.com/utkarshsingx/utkarshsingx/output/snake.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/abraxas0001/abraxas0001/output/snake.svg" alt="Snake animation" />
 
 ---
 
