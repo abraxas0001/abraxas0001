@@ -61,10 +61,11 @@
 ## 🏆 GitHub Activity
 
 <div align="center">
-  
-![GitHub Snake Light](https://raw.githubusercontent.com/abraxas0001/abraxas0001/output/github-contribution-grid-snake.svg)
-![GitHub Snake Dark](https://raw.githubusercontent.com/abraxas0001/abraxas0001/output/github-contribution-grid-snake-dark.svg)
-  
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/abraxas0001/abraxas0001/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/abraxas0001/abraxas0001/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/abraxas0001/abraxas0001/output/github-contribution-grid-snake.svg">
+  </picture>
 </div>
 
 ---
