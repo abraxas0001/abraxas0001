@@ -17,7 +17,6 @@
 - ⚡ Fun fact: **I code while eating, which explains my food repository!**
 
 ---
----
 
 ## 💻 Tech Stack
 <div align="center">
@@ -63,9 +62,8 @@
 
 <div align="center">
   
-![GitHub Snake Animation](https://github.com/abraxas0001/abraxas0001/blob/output/github-contribution-grid-snake.svg)
-
-
+![GitHub Snake Light](https://raw.githubusercontent.com/abraxas0001/abraxas0001/output/github-contribution-grid-snake.svg)
+![GitHub Snake Dark](https://raw.githubusercontent.com/abraxas0001/abraxas0001/output/github-contribution-grid-snake-dark.svg)
   
 </div>
 
@@ -78,9 +76,3 @@
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=abraxas0001&style=flat-square&color=6C63FF" alt="Profile Views">
 </div>
-
-<!-- 
-To create the snake animation:
-1. Create a .github/workflows folder in your repository
-2. Add a snake.yml file with the GitHub Action configuration 
--->
