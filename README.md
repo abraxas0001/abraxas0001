@@ -63,11 +63,8 @@
 
 <div align="center">
   
-  <!-- ACTIVITY GRAPH -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=abraxas0001&bg_color=0d1117&color=6C63FF&line=6C63FF&point=FFFFFF&area=true&hide_border=true" alt="GitHub Activity Graph">
-  
-  <!-- SNAKE ANIMATION -->
-  <img src="https://github.com/abraxas0001/abraxas0001/blob/output/github-contribution-grid-snake.svg" alt="Snake animation showing my contributions">
+![GitHub Snake Animation](https://github.com/abraxas0001/abraxas0001/blob/output/github-contribution-grid-snake.svg)
+
   
 </div>
 
