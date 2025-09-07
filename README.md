@@ -63,9 +63,6 @@
 
 ## 🚀 Top Projects
 <div align="center">
-  <a href="https://github.com/abraxas0001/Bhaichara-Bot">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=abraxas0001&repo=Bhaichara-Bot&theme=tokyonight&hide_border=true&show_owner=true" alt="Bhaichara-Bot" />
-  </a>
   <a href="https://github.com/abraxas0001/File-Sharing-Bot">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=abraxas0001&repo=File-Sharing-Bot&theme=tokyonight&hide_border=true&show_owner=true" alt="File-Sharing-Bot" />
   </a>
