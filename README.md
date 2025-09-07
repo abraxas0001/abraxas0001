@@ -62,8 +62,8 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/abraxas0001/abraxas0001/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/abraxas0001/abraxas0001/output/github-contribution-grid-snake.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/abraxas0001/abraxas0001/blob/main/.github/workflows/snake.yml">
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/abraxas0001/abraxas0001/blob/main/.github/workflows/snake.yml">
     <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/abraxas0001/abraxas0001/output/github-contribution-grid-snake.svg">
   </picture>
 </div>
