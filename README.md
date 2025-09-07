@@ -13,7 +13,7 @@
 - 🌱 I'm currently learning **Advanced API Integration**
 - 👯 I'm looking to collaborate on **Open Source Projects**
 - 💬 Ask me about **Python, Telegram Bots, JavaScript**
-- 📫 How to reach me: **abraxas0001@gmail.com**
+- 📫 How to reach me: **abraxas00010001@gmail.com**
 - ⚡ Fun fact: **I code while eating, which explains my food repository!**
 
 ---
