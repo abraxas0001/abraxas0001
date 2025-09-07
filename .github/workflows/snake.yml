@@ -16,11 +16,19 @@ jobs:
         id: snake-gif
         with:
           github_user_name: abraxas0001
-          # Size of the generated gif
           gif_out_path: dist/github-contribution-grid-snake.gif
-          # SVG output path
           svg_out_path: dist/github-contribution-grid-snake.svg
-      
+
+      - name: Ensure output branch exists
+        run: |
+          git fetch origin
+          if git show-ref --verify --quiet refs/heads/output; then
+            git checkout output
+          else
+            git checkout -b output
+            git push --set-upstream origin output
+          fi
+
       - name: Push to GitHub repository
         uses: EndBug/add-and-commit@v7.2.1
         with:
