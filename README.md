@@ -6,7 +6,7 @@
 
 ---
 
-![Abra Banner](https://i.ibb.co/B3RJ2TG/dev-banner.gif)
+![Abra Banner](https://github.com/abraxas0001/abraxas0001/blob/main/assets/gifs/banner.gif)
 
 ## 👨🏻‍💻 &nbsp;About Me
 
