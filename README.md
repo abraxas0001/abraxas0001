@@ -5,8 +5,13 @@
 <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=abraxas0001&color=brightgreen">
 
 ---
-
-![Abra Banner](https://github.com/abraxas0001/abraxas0001/blob/main/assets/gifs/banner.gif)
+<p align="center">
+  <img src="https://github.com/abraxas0001/abraxas0001/blob/main/assets/gifs/banner.gif" 
+       alt="Abra Banner" 
+       width="100%" 
+       height="230px"
+       style="object-fit: cover; border-radius: 15px; box-shadow: 0 0 15px rgba(0,0,0,0.3);" />
+</p>
 
 ## 👨🏻‍💻 &nbsp;About Me
 
