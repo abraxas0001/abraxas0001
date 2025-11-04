@@ -6,7 +6,7 @@
 
 ---
 <p align="center">
-  <img src="https://github.com/abraxas0001/abraxas0001/blob/main/assets/gifs/banner.gif" 
+  <img src="https://github.com/abraxas0001/abraxas0001/blob/main/assets/gifs/dp2kuk914o9.gif" 
        alt="Abra Banner" 
        width="100%" 
        height="230px"
