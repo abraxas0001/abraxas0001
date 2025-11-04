@@ -10,7 +10,7 @@
 
 ## 👨🏻‍💻 &nbsp;About Me
 
-<img alt="Coding" src="https://github.com/abraxas0001/abraxas0001/blob/main/assets/gifs/Code%20Coding%20GIF.gif" align="right" width="250" height="200" />
+<img alt="Coding" src="https://github.com/abraxas0001/abraxas0001/blob/main/assets/gifs/Find%20%26%20Sh.gif" align="right" width="250" height="200" />
 
 💻 &nbsp;I’m a **Full-Stack Developer**, **AI Enthusiast**, and **Open-Source Contributor** passionate about building smart, scalable apps.  
 🧠 &nbsp;Love combining **C++**, **Python**, **React**, **Node.js**, and **AI tools** to make creative solutions.  
