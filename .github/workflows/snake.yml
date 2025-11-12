@@ -2,21 +2,35 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 */6 * * *"      # every 6 hours (adjust if you want)
+  push:
+    branches:
+      - main
   workflow_dispatch:
+
+permissions:
+  contents: write            # allow workflow to push files to output branch
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: Platane/snk@v3
+
+      - name: Generate snake (authenticated)
+        uses: Platane/snk@v3
         with:
           github_user_name: abraxas0001
           outputs: dist/snake.svg
-      - uses: crazy-max/ghaction-github-pages@v4
+        env:
+          # Use the PAT you stored as a secret to allow access to private contributions
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+
+      - name: Publish to output branch
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Use the PAT so the action can push to the output branch as needed
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
