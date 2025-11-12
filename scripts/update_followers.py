@@ -11,13 +11,18 @@ if "/" not in repo:
     sys.exit(1)
 owner = repo.split("/")[0]
 
-# Allow optional personal token (if you prefer to use a PAT stored as PERSONAL_TOKEN)
+# Use PERSONAL_TOKEN if available, otherwise GITHUB_TOKEN
 token = os.getenv("PERSONAL_TOKEN") or os.getenv("GITHUB_TOKEN")
 headers = {"Accept": "application/vnd.github+json"}
 if token:
     headers["Authorization"] = f"Bearer {token}"
 
-resp = requests.get(f"https://api.github.com/users/{owner}", headers=headers, timeout=15)
+try:
+    resp = requests.get(f"https://api.github.com/users/{owner}", headers=headers, timeout=15)
+except Exception as e:
+    print("Network or request error:", e)
+    sys.exit(1)
+
 if resp.status_code != 200:
     print("Failed to fetch user info:", resp.status_code, resp.text)
     sys.exit(1)
@@ -35,14 +40,12 @@ except FileNotFoundError:
     print("README.md not found in repository root.")
     sys.exit(1)
 
-# Generate the new content. You can modify the "Follower count" line formatting (markdown) as desired.
 new_block = f"{start}\n[Follow on GitHub](https://github.com/{owner}) • Followers: **{followers}**\n{end}"
 
 if start in text and end in text:
     pattern = re.compile(re.escape(start) + ".*?" + re.escape(end), re.S)
     new_text = pattern.sub(new_block, text)
 else:
-    # Append block at the end if markers are not present
     new_text = text.rstrip() + "\n\n" + new_block + "\n"
 
 if new_text != text:
