@@ -1,34 +1,50 @@
-name: Generate snake animation
+name: Generate Snake Animation
 
 on:
-  schedule: # execute every 12 hours
-    - cron: "* */12 * * *"
-
-  workflow_dispatch:
-
+  schedule:
+    - cron: "0 */24 * * *"      # every 24 hours
   push:
     branches:
-    - master
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write            # allow workflow to push files to output branch
 
 jobs:
-  generate:
-    permissions:
-      contents: write
+  build:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
-
     steps:
-      - name: generate snake.svg
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: dist/snake.svg?palette=github-dark
+      - uses: actions/checkout@v4
 
-
-      - name: push snake.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+      - name: Set up Node
+        uses: actions/setup-node@v4
         with:
-          target_branch: output
-          build_dir: dist
+          node-version: '18'
+
+      - name: Install snk CLI
+        run: npm install -g @platane/snk
+
+      - name: Generate snake (authenticated)
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+        run: |
+          mkdir -p dist
+          # run CLI with token so private contributions are included
+          snk --user abraxas0001 --output dist/snake.svg --token "$GITHUB_TOKEN"
+          ls -la dist
+          # show some dates in the SVG (debug)
+          grep -Eo 'data-date="[^"]+"' dist/snake.svg | head -n 20
+
+      - name: Commit and push to output branch (as your user)
+        env:
+          PUSH_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+        run: |
+          git config user.name "Abra"
+          git config user.email "abraxas00010001@gmail.com"
+          git checkout -B output
+          cp -r dist/* .
+          git add -A
+          git commit -m "ci(snake): update" || echo "no changes to commit"
+          git remote set-url origin https://x-access-token:${PUSH_TOKEN}@github.com/${{ github.repository }}.git
+          git push -u origin output --force
