@@ -1,0 +1,62 @@
+name: Generate Snake Animation
+
+on:
+  schedule:
+    - cron: "0 */24 * * *"      # every 24 hours
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write            # allow workflow to push files to output branch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      # Use the official platane/snk action (runs in container) instead of
+      # trying to install a CLI via npm (which previously returned 404).
+      #
+      # The action accepts a token which can be a personal access token (PAT)
+      # if you want private contributions included. Set a secret named
+      # `SNAKE_GITHUB_TOKEN` in the repository settings containing a PAT
+      # with repo/read:org (or at least repo and read:user) permissions.
+      # If the secret is not provided, we fall back to the default
+      # GITHUB_TOKEN which works for public contributions.
+      - name: Generate snake (authenticated)
+        uses: platane/snk@v3
+        with:
+          # user to generate the snake for
+          user: abraxas0001
+          # where to put the generated svg inside the workspace
+          output: dist/snake.svg
+          # token: use SNAKE_GITHUB_TOKEN secret if present, otherwise fall back to github.token
+          token: ${{ secrets.SNAKE_GITHUB_TOKEN != '' && secrets.SNAKE_GITHUB_TOKEN || github.token }}
+
+      - name: Show generated file (debug)
+        run: |
+          ls -la dist || true
+          grep -Eo 'data-date="[^"]+"' dist/snake.svg | head -n 20 || true
+
+      - name: Commit and push to output branch (as your user)
+        env:
+          # use the same secret (SNAKE_GITHUB_TOKEN) if present for pushing,
+          # otherwise use the default github.token
+          PUSH_TOKEN: ${{ secrets.SNAKE_GITHUB_TOKEN != '' && secrets.SNAKE_GITHUB_TOKEN || github.token }}
+        run: |
+          git config user.name "Abra"
+          git config user.email "abraxas00010001@gmail.com"
+          git checkout -B output
+          cp -r dist/* .
+          git add -A
+          git commit -m "ci(snake): update" || echo "no changes to commit"
+          git remote set-url origin https://x-access-token:${PUSH_TOKEN}@github.com/${{ github.repository }}.git
+          git push -u origin output --force
