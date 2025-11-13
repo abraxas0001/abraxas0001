@@ -2,14 +2,14 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 */24 * * *"      # every 24 hours
+    - cron: "0 */24 * * *"    # every 24 hours (adjust if you want)
   push:
     branches:
       - main
   workflow_dispatch:
 
 permissions:
-  contents: write            # allow workflow to push files to output branch
+  contents: write
 
 jobs:
   build:
@@ -17,43 +17,30 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Set up Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: '18'
-
-      # Use the official platane/snk action (runs in container) instead of
-      # trying to install a CLI via npm (which previously returned 404).
-      #
-      # The action accepts a token which can be a personal access token (PAT)
-      # if you want private contributions included. Set a secret named
-      # `SNAKE_GITHUB_TOKEN` in the repository settings containing a PAT
-      # with repo/read:org (or at least repo and read:user) permissions.
-      # If the secret is not provided, we fall back to the default
-      # GITHUB_TOKEN which works for public contributions.
+      # Generate the SVG using the official action
       - name: Generate snake (authenticated)
         uses: platane/snk@v3
         with:
-          # user to generate the snake for
-          user: abraxas0001
-          # where to put the generated svg inside the workspace
-          output: dist/snake.svg
-          # token: use SNAKE_GITHUB_TOKEN secret if present, otherwise fall back to github.token
-          token: ${{ secrets.SNAKE_GITHUB_TOKEN != '' && secrets.SNAKE_GITHUB_TOKEN || github.token }}
+          # your GitHub username
+          github_user_name: abraxas0001
+          # where to write the SVG(s)
+          outputs: |
+            dist/snake.svg
+          # Use PAT if provided to include private contributions, else fallback
+          github_token: ${{ secrets.SNAKE_GITHUB_TOKEN != '' && secrets.SNAKE_GITHUB_TOKEN || github.token }}
 
       - name: Show generated file (debug)
         run: |
           ls -la dist || true
-          grep -Eo 'data-date="[^"]+"' dist/snake.svg | head -n 20 || true
+          head -n 20 dist/snake.svg || true
 
       - name: Commit and push to output branch (as your user)
         env:
-          # Always use the workflow's default GITHUB_TOKEN to push to this repository.
-          # This avoids requiring your PAT to have write access to this repo.
+          # Push with the workflow's default token (no PAT write needed)
           PUSH_TOKEN: ${{ github.token }}
         run: |
-          git config user.name "Abra"
-          git config user.email "abraxas00010001@gmail.com"
+          git config user.name "${{ github.actor }}"
+          git config user.email "${{ github.actor }}@users.noreply.github.com"
           git checkout -B output
           cp -r dist/* .
           git add -A
