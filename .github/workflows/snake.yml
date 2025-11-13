@@ -2,7 +2,7 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 */24 * * *"      # every 24 hours
+    - cron: "0 */6 * * *"      # every 6 hours (adjust if desired)
   push:
     branches:
       - main
@@ -15,36 +15,29 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - name: Set up Node
-        uses: actions/setup-node@v4
+      - name: Generate snake (authenticated) using action
+        uses: Platane/snk@v3
         with:
-          node-version: '18'
-
-      - name: Install snk CLI
-        run: npm install -g @platane/snk
-
-      - name: Generate snake (authenticated)
+          github_user_name: abraxas0001
+          outputs: dist/snake.svg
         env:
+          # Use your PAT stored as a secret so private contributions are visible
           GITHUB_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
-        run: |
-          mkdir -p dist
-          # run CLI with token so private contributions are included
-          snk --user abraxas0001 --output dist/snake.svg --token "$GITHUB_TOKEN"
-          ls -la dist
-          # show some dates in the SVG (debug)
-          grep -Eo 'data-date="[^"]+"' dist/snake.svg | head -n 20
 
-      - name: Commit and push to output branch (as your user)
+      - name: Publish to output branch (as user)
         env:
           PUSH_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
         run: |
           git config user.name "Abra"
           git config user.email "abraxas00010001@gmail.com"
           git checkout -B output
-          cp -r dist/* .
+          mkdir -p dist
+          # copy generated snake if action wrote to dist/ or ./
+          if [ -f dist/snake.svg ]; then cp dist/snake.svg .; fi
           git add -A
-          git commit -m "ci(snake): update" || echo "no changes to commit"
+          git commit -m "ci(snake): update" || echo "No changes to commit"
           git remote set-url origin https://x-access-token:${PUSH_TOKEN}@github.com/${{ github.repository }}.git
           git push -u origin output --force
