@@ -48,9 +48,9 @@ jobs:
 
       - name: Commit and push to output branch (as your user)
         env:
-          # use the same secret (SNAKE_GITHUB_TOKEN) if present for pushing,
-          # otherwise use the default github.token
-          PUSH_TOKEN: ${{ secrets.SNAKE_GITHUB_TOKEN != '' && secrets.SNAKE_GITHUB_TOKEN || github.token }}
+          # Always use the workflow's default GITHUB_TOKEN to push to this repository.
+          # This avoids requiring your PAT to have write access to this repo.
+          PUSH_TOKEN: ${{ github.token }}
         run: |
           git config user.name "Abra"
           git config user.email "abraxas00010001@gmail.com"
