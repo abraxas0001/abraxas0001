@@ -54,3 +54,7 @@
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FFCC,100:0066FF&height=120&section=footer"/>
 </p>
+
+<!-- followers-badge-start -->
+[Follow on GitHub](https://github.com/abraxas0001) • Followers: **2**
+<!-- followers-badge-end -->
