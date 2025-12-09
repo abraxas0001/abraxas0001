@@ -60,5 +60,5 @@
 </p>
 
 <!-- followers-badge-start -->
-[Follow on GitHub](https://github.com/abraxas0001) • Followers: **2**
+[Follow on GitHub](https://github.com/abraxas0001) • Followers: **3**
 <!-- followers-badge-end -->
