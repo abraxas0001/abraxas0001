@@ -17,18 +17,19 @@
 
 <img alt="Coding" src="https://github.com/abraxas0001/abraxas0001/blob/main/assets/gifs/Find%20%26%20Sh.gif" align="right" width="250" height="150" />
 
-💻 &nbsp;I’m a **Full-Stack Developer**, **AI Enthusiast**, and **Open-Source Contributor** passionate about building smart, scalable apps.  
-🧠 &nbsp;Love combining **C++**, **Python**, **React**, **Node.js**, and **AI tools** to make creative solutions.  
-🚀 &nbsp;Currently experimenting with **machine learning integrations** and **developer automation tools**.  
-🎯 &nbsp;Always eager to learn, collaborate, and innovate through open-source.  
+🔐 &nbsp;I’m a **Cyber Security Enthusiast** and **Ethical Hacker** with a strong foundation in **Full-Stack Development**.  
+🛡️ &nbsp;Passionate about **Network Security**, **Vulnerability Assessment**, and securing the digital frontier.  
+💻 &nbsp;Leveraging **Python**, **C++**, and **Web Tech** to understand how systems are built—and how to break them.  
+🧠 &nbsp;Currently exploring **AI-driven Security** and **Automated Penetration Testing** tools.  
+🎯 &nbsp;Always eager to learn, collaborate, and innovate through open-source security tools.  
 ✉️ &nbsp;Reach me at [Gmail](mailto:abraxas00010001@gmail.com) — I’ll try to respond quickly!
 
 ---
 
-## ⚙️ &nbsp;Tech Stack
+## ⚙️ &nbsp;Tech Stack & Tools
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,cpp,react,nodejs,express,js,ts,html,css,nextjs,mongodb,firebase,docker,git,linux,vscode,figma&perline=8" />
+  <img src="https://skillicons.dev/icons?i=kali,bash,python,cpp,linux,react,nodejs,express,js,ts,html,css,nextjs,mongodb,mysql,aws,docker,git,vscode,figma&perline=10" />
 </p>
 
 ---
@@ -59,6 +60,4 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FFCC,100:0066FF&height=120&section=footer"/>
 </p>
 
-<!-- followers-badge-start -->
 [Follow on GitHub](https://github.com/abraxas0001) • Followers: **3**
-<!-- followers-badge-end -->
