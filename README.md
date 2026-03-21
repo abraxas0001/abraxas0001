@@ -63,5 +63,5 @@
 [Follow on GitHub](https://github.com/abraxas0001) • Followers: **3**
 
 <!-- followers-badge-start -->
-[Follow on GitHub](https://github.com/abraxas0001) • Followers: **3**
+[Follow on GitHub](https://github.com/abraxas0001) • Followers: **2**
 <!-- followers-badge-end -->
