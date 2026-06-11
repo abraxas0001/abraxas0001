@@ -77,7 +77,6 @@
 
 - **Code-X** — AI-powered DSA learning platform: Monaco editor (Py/JS/C++/Java), Gemini Socratic tutor, complexity visualization, gamification & activity heatmap. → [Live](https://code-x-eta-khaki.vercel.app)
 - **COUP** — real-time multiplayer web adaptation of the social-deduction card game. *Deceive · Manipulate · Survive.* → [Live](https://coup-multi.vercel.app)
-- **Zenith Farmsteads** — conversion-focused real-estate site: cinematic transitions, Zod-validated lead API, full SEO. → [Live](https://zenith-estates.vercel.app)
 - **AutoPay Alert X** — anime-inspired task & subscription manager with smart payment alerts. → [Live](https://autopay-alert-x-tryt.vercel.app)
 - **Algorithm Path Visualizer** — interactive pathfinding & maze visualizer (Dijkstra, A\*, Greedy, BFS, DFS). → [Live](https://algo-path-visualizer-five.vercel.app)
 - **FableFoundry** — interactive storytelling platform with rotating narrator avatars and a hand-forged aesthetic.
