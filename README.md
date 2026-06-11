@@ -25,9 +25,9 @@
     <img alt="GitHub" src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=00FFCC">
   </a>
   <a href="https://github.com/abraxas0001?tab=followers">
-    <img alt="Followers" src="https://img.shields.io/github/followers/abraxas0001?style=for-the-badge&logo=github&logoColor=00FFCC&label=FOLLOWERS&color=00FFCC&labelColor=0D1117">
+    <img alt="Followers" src="https://img.shields.io/github/followers/abraxas0001?style=for-the-badge&logo=github&logoColor=00FFCC&label=FOLLOWERS&color=0D1117&labelColor=0D1117">
   </a>
-  <img alt="Profile views" src="https://komarev.com/ghpvc/?username=abraxas0001&style=for-the-badge&label=VIEWS&color=00FFCC">
+  <img alt="Profile views" src="https://komarev.com/ghpvc/?username=abraxas0001&style=for-the-badge&label=VIEWS&color=0D1117">
 </p>
 
 ![divider](https://capsule-render.vercel.app/api?type=rect&color=0:00FFCC,100:0066FF&height=2&section=header)
