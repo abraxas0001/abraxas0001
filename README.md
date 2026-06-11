@@ -11,86 +11,84 @@
   </a>
 </p>
 
-<!-- ===================== CONTACT / SOCIAL ===================== -->
+
+<!-- ===================== SOCIALS ===================== -->
 
 <p align="center">
   <a href="mailto:abraxas00010001@gmail.com">
-    <img alt="Email" src="https://img.shields.io/badge/Email-0066FF?style=for-the-badge&logo=gmail&logoColor=00FFCC">
+    <img alt="Email" src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=00FFCC">
   </a>
   <a href="https://www.linkedin.com/in/abraxas0001/">
-    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
+    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=00FFCC">
   </a>
   <a href="https://github.com/abraxas0001">
     <img alt="GitHub" src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=00FFCC">
   </a>
-</p>
-
-<p align="center">
-  <img alt="Profile views" src="https://komarev.com/ghpvc/?username=abraxas0001&label=PROFILE+VIEWS&color=00FFCC&style=for-the-badge">
   <a href="https://github.com/abraxas0001?tab=followers">
-    <img alt="Followers" src="https://img.shields.io/github/followers/abraxas0001?style=for-the-badge&color=0066FF&labelColor=0D1117&logo=github&logoColor=00FFCC">
+    <img alt="Followers" src="https://img.shields.io/github/followers/abraxas0001?style=for-the-badge&logo=github&logoColor=00FFCC&label=FOLLOWERS&color=00FFCC&labelColor=0D1117">
   </a>
-  <img alt="Based in Varanasi, India" src="https://img.shields.io/badge/Based%20in-Varanasi%2C%20IN-0D1117?style=for-the-badge&logo=googlemaps&logoColor=00FFCC">
+  <img alt="Profile views" src="https://komarev.com/ghpvc/?username=abraxas0001&style=for-the-badge&label=VIEWS&color=00FFCC">
 </p>
 
-![divider](https://capsule-render.vercel.app/api?type=rect&color=0:00FFCC,100:0066FF&height=3&section=header)
+![divider](https://capsule-render.vercel.app/api?type=rect&color=0:00FFCC,100:0066FF&height=2&section=header)
 
 <!-- ===================== ABOUT ===================== -->
 
-## About
+## 👨‍💻 &nbsp; About Me
 
-I build the parts of a product people actually touch — and a few they never notice until they go missing.
+<img align="right" width="290" alt="night coding" src="https://raw.githubusercontent.com/abraxas0001/abraxas0001/main/assets/gifs/Find%20%26%20Sh.gif">
 
-Most of my days go to shipping production frontend and full-stack features: interview engines that listen and talk back, resume tools that grade themselves, learning platforms that have to feel fast on a bad connection. I care about the unglamorous middle — the loading state, the freeze-recovery, the empty screen — because that's usually where "demo" and "product" quietly part ways.
+⚡ &nbsp;Full-stack engineer who lives in the **frontend** and trespasses into the **backend** — I ship things people actually click.
 
-After hours I wander off into Kali and Linux, poking at things to understand how they break. I keep security as a flavor, not a costume: enough to write code that's harder to embarrass, not enough to claim a title I haven't earned.
+🧩 &nbsp;Daily drivers — **React · Next.js · TypeScript · Node**, **Python** for the heavy lifting, **C++** when I feel like suffering.
 
-Based in **Varanasi, India**. Building since 2021. Mostly online, occasionally asleep — the two are negotiable.
+🐧 &nbsp;Off the clock I'm in **Kali / Linux**, breaking things on purpose so they break less on purpose later.
 
-![divider](https://capsule-render.vercel.app/api?type=rect&color=0:00FFCC,100:0066FF&height=3&section=header)
+☕ &nbsp;Big on clean loading states, sane edge cases, and a deeply personal relationship with `git revert`.
+
+<br clear="right">
+
+![divider](https://capsule-render.vercel.app/api?type=rect&color=0:00FFCC,100:0066FF&height=2&section=header)
 
 <!-- ===================== SELECTED WORK ===================== -->
 
-## Selected Work — Shipped in Production
+## 🚀 &nbsp; Selected Work — Shipped in Production
 
-> Real, merged-to-main work (40+ PRs) on live platforms. The clients stay unnamed; the features still shipped.
+> Real, merged-to-main work across **multiple organizations**. The clients stay unnamed; the shipping speaks for itself.
 
-**On a production LMS platform**
+- 🏗️ &nbsp;**Built whole products end-to-end** — full **frontends** wired straight into the **backend**: APIs, auth, real-time data, and all the connectors that make a product actually *work*.
+- 🧱 &nbsp;**Full-stack across several orgs** — **40+ PRs merged to main**, from first commit to production, spanning learning platforms, health/fitness tooling, and consumer apps.
+- 🤖 &nbsp;**AI-heavy product features** — interview engines, scoring/evaluation, in-browser voice, resume tooling — the hard, fiddly stuff that ships *and* stays up.
+- ⚙️ &nbsp;**Automation pipelines** — designed and built internal automation that turned slow, manual, repetitive work into something that just runs itself.
+- 🛡️ &nbsp;**The unglamorous reliability layer** — auth flows, cross-browser fallbacks, edge cases, and the loading states nobody notices until they go missing.
 
-- **AI mock-interview system, end-to-end** — real-time **speech-to-text (Whisper)** and **text-to-speech**, talking-avatar interviewer segments, live **mic-waveform visualization**, **AI-driven answer evaluation and scoring**, and an interview timer that survives a tab-freeze and resumes cleanly.
-- **In-browser noise suppression (RNNoise WASM)** plus cross-browser STT fallbacks so **Safari and Edge** users aren't left talking to silence.
-- **ATS resume builder** — resume scoring with AI analysis, one-click AI section tailoring, import-from-profile, multiple templates, and high-quality **single-page PDF export**.
-- **Course builder & learning engine** — course filtering, duplication, and attachment preview; article parsing; combined **quiz + coding flows**; an MCQ modal; and **assessments with re-attempt + edit-persistence** that never lose a learner's progress.
-- **Community & engagement** — discussion forum with polls, a markdown feed and threaded replies, a **leaderboard** with accurate rank + identity resolution, **XP-gain notifications**, a **bounty system**, and profile-strength UX.
-- **Auth** — a hardened **OTP-based (6-digit) password-reset** flow.
+> _tl;dr — a lot of frontend, a lot of backend, and a healthy amount of "wait, that's automated now?"_
 
-**On a pet-care platform**
+![divider](https://capsule-render.vercel.app/api?type=rect&color=0:00FFCC,100:0066FF&height=2&section=header)
 
-- Frontend staging/UI fixes plus a **QR-code redirect handler** powering offline marketing campaigns.
+<!-- ===================== PROJECTS ===================== -->
 
-![divider](https://capsule-render.vercel.app/api?type=rect&color=0:00FFCC,100:0066FF&height=3&section=header)
-
-<!-- ===================== FEATURED PROJECTS ===================== -->
-
-## Featured Projects
-
-Each one ships with a live demo — the links go straight to the running thing.
-
-| Project | What it is | Stack | Live |
-| :-- | :-- | :-- | :-- |
-| **Code-X** | AI-powered DSA learning platform — Monaco editor (Py/JS/C++/Java), Gemini Socratic tutor, time/space complexity visualization, gamification (XP, levels, streaks, badges), GitHub-style activity heatmap | React 18 · Vite · TS · Tailwind · Framer Motion | [Demo](https://code-x-eta-khaki.vercel.app) |
-| **COUP** | Real-time multiplayer web adaptation of the social-deduction card game — *Deceive · Manipulate · Survive* | React · Realtime multiplayer | [Demo](https://coup-multi.vercel.app) |
-| **Zenith Farmsteads** | Conversion-focused real-estate site for land opportunities — cinematic transitions, Zod-validated lead API, full SEO (OG, Twitter cards, JSON-LD, sitemap) | Next.js App Router · TS · Tailwind · Framer Motion | [Demo](https://zenith-estates.vercel.app) |
-| **AutoPay Alert X** | Anime-inspired task & subscription manager with intelligent payment alerts | React 19 · TS · Vite · Tailwind · Firebase · Gemini | [Demo](https://autopay-alert-x-tryt.vercel.app) |
-| **Algorithm Path Visualizer** | Interactive pathfinding & maze visualizer — Dijkstra, A\*, Greedy Best-First, BFS, DFS, recursive-division mazes | React · TS | [Demo](https://algo-path-visualizer-five.vercel.app) |
-| **FableFoundry** | Interactive storytelling platform with rotating narrator avatars ("Foundry Smiths") and a cozy hand-forged aesthetic | Next.js 14 App Router · TS | — |
+## 🧩 &nbsp; Projects
 
 <details>
-  <summary><b>More — bots &amp; tooling</b></summary>
+  <summary><b>🌐 &nbsp; Web apps & platforms</b></summary>
 
 <br>
 
-**Python Telegram bots**
+- **Code-X** — AI-powered DSA learning platform: Monaco editor (Py/JS/C++/Java), Gemini Socratic tutor, complexity visualization, gamification & activity heatmap. → [Live](https://code-x-eta-khaki.vercel.app)
+- **COUP** — real-time multiplayer web adaptation of the social-deduction card game. *Deceive · Manipulate · Survive.* → [Live](https://coup-multi.vercel.app)
+- **Zenith Farmsteads** — conversion-focused real-estate site: cinematic transitions, Zod-validated lead API, full SEO. → [Live](https://zenith-estates.vercel.app)
+- **AutoPay Alert X** — anime-inspired task & subscription manager with smart payment alerts. → [Live](https://autopay-alert-x-tryt.vercel.app)
+- **Algorithm Path Visualizer** — interactive pathfinding & maze visualizer (Dijkstra, A\*, Greedy, BFS, DFS). → [Live](https://algo-path-visualizer-five.vercel.app)
+- **FableFoundry** — interactive storytelling platform with rotating narrator avatars and a hand-forged aesthetic.
+
+</details>
+
+<details>
+  <summary><b>🤖 &nbsp; Telegram bots</b></summary>
+
+<br>
+
 - **ANY-MEDIA-DOWNLOADER** — multi-platform social media downloader.
 - **Caption-Master-Pro** — bulk caption editor with 9 modes.
 - **Neko-Album-Maker** — turns loose media into clean albums.
@@ -98,81 +96,89 @@ Each one ships with a live demo — the links go straight to the running thing.
 - **File-Sharing-Bot** — managed file sharing.
 - **CLI-Tg-Account-Homies** — CLI account tooling.
 
-**Apps & experiments**
+</details>
+
+<details>
+  <summary><b>🧪 &nbsp; More apps & experiments</b></summary>
+
+<br>
+
 - **your-goto-num** — virtual phone-number / SMS-verification service.
 - **E-Com-Cart** — e-commerce cart implementation.
-- **Ai-surveyor** — Next.js AI survey app.
+- **Ai-surveyor** — Next.js survey app.
 - **Hobby-Hive** — hobby community platform.
 - **Portfolio-Showcase** — open portfolio template.
-- **DataseExtraction** — LLM-driven data extraction.
+- **DataseExtraction** — automated data extraction tooling.
 
 </details>
 
-![divider](https://capsule-render.vercel.app/api?type=rect&color=0:00FFCC,100:0066FF&height=3&section=header)
+![divider](https://capsule-render.vercel.app/api?type=rect&color=0:00FFCC,100:0066FF&height=2&section=header)
 
 <!-- ===================== TECH STACK ===================== -->
 
-## Tech Stack
-
-**Languages**
-
-[![Languages](https://skillicons.dev/icons?i=ts,js,python,cpp,java,html,css,bash&perline=8&theme=dark)](https://skillicons.dev)
-
-**Frontend**
-
-[![Frontend](https://skillicons.dev/icons?i=react,nextjs,tailwind&perline=8&theme=dark)](https://skillicons.dev)
-
-**Backend &amp; Data/Infra**
-
-[![Backend](https://skillicons.dev/icons?i=nodejs,express,mongodb,mysql,firebase,docker,aws&perline=8&theme=dark)](https://skillicons.dev)
-
-**Security &amp; Tooling**
-
-[![Tooling](https://skillicons.dev/icons?i=kali,linux,git,vscode,figma&perline=8&theme=dark)](https://skillicons.dev)
-
-**Motion &amp; AI**
-
-<p>
-  <img alt="Framer Motion" src="https://img.shields.io/badge/Framer_Motion-0066FF?style=for-the-badge&logo=framer&logoColor=00FFCC">
-  <img alt="Gemini" src="https://img.shields.io/badge/Gemini-0066FF?style=for-the-badge&logo=googlegemini&logoColor=00FFCC">
-  <img alt="Whisper / LLM" src="https://img.shields.io/badge/Whisper%20%2F%20LLM-0D1117?style=for-the-badge&logo=openai&logoColor=00FFCC">
-  <img alt="RNNoise WASM" src="https://img.shields.io/badge/RNNoise_WASM-00FFCC?style=for-the-badge&logo=webassembly&logoColor=0D1117">
-</p>
-
-![divider](https://capsule-render.vercel.app/api?type=rect&color=0:00FFCC,100:0066FF&height=3&section=header)
-
-<!-- ===================== GITHUB STATS ===================== -->
-
-## GitHub Stats
+## 🛠️ &nbsp; Tech Stack
 
 <p align="center">
-  <img alt="Abra's GitHub stats" height="170" src="https://github-readme-stats.vercel.app/api?username=abraxas0001&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00FFCC&icon_color=00FFCC&text_color=c9d1d9&ring_color=0066FF&include_all_commits=true&count_private=true&cache_seconds=86400">
-  <img alt="Top languages" height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=abraxas0001&layout=donut&hide_border=true&bg_color=0D1117&title_color=00FFCC&text_color=c9d1d9&langs_count=8&cache_seconds=86400">
+  <img src="https://skillicons.dev/icons?i=ts,js,python,cpp,java,html,css,bash&perline=8&theme=dark" alt="languages"><br>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,nodejs,express,mongodb,mysql,firebase&perline=8&theme=dark" alt="frameworks"><br>
+  <img src="https://skillicons.dev/icons?i=docker,aws,git,kali,linux,vscode,figma&perline=8&theme=dark" alt="tools">
 </p>
 
 <p align="center">
-  <img alt="GitHub streak" src="https://streak-stats.demolab.com?user=abraxas0001&theme=tokyonight&hide_border=true&background=0D1117&border=0066FF&stroke=0066FF&ring=00FFCC&fire=00FFCC&currStreakNum=00FFCC&currStreakLabel=00FFCC&sideNums=c9d1d9&sideLabels=c9d1d9&dates=8b949e">
+  <img alt="Framer Motion" src="https://img.shields.io/badge/Framer_Motion-0D1117?style=for-the-badge&logo=framer&logoColor=00FFCC">
+  <img alt="Gemini" src="https://img.shields.io/badge/Gemini-0D1117?style=for-the-badge&logo=googlegemini&logoColor=00FFCC">
+  <img alt="Whisper" src="https://img.shields.io/badge/Whisper-0D1117?style=for-the-badge&logo=openai&logoColor=00FFCC">
+  <img alt="RNNoise WASM" src="https://img.shields.io/badge/RNNoise_WASM-0D1117?style=for-the-badge&logo=webassembly&logoColor=00FFCC">
+</p>
+
+![divider](https://capsule-render.vercel.app/api?type=rect&color=0:00FFCC,100:0066FF&height=2&section=header)
+
+<!-- ===================== STATS ===================== -->
+
+## 📊 &nbsp; The Numbers
+
+<p align="center">
+  <img alt="stats" height="170" src="https://github-readme-stats.vercel.app/api?username=abraxas0001&show_icons=true&hide_border=true&rank_icon=github&bg_color=0D1117&title_color=00FFCC&icon_color=00FFCC&text_color=c9d1d9&ring_color=0066FF&include_all_commits=true&count_private=true&cache_seconds=21600">
+  <img alt="top languages" height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=abraxas0001&layout=compact&langs_count=8&hide=html,css&hide_border=true&bg_color=0D1117&title_color=00FFCC&text_color=c9d1d9&cache_seconds=21600">
 </p>
 
 <p align="center">
-  <img alt="Contribution graph" src="https://github-readme-activity-graph.vercel.app/graph?username=abraxas0001&bg_color=0D1117&color=00FFCC&line=0066FF&point=00FFCC&area=true&area_color=00FFCC&title_color=00FFCC&hide_border=true&custom_title=Contribution%20Graph">
+  <img alt="streak" src="https://streak-stats.demolab.com?user=abraxas0001&theme=tokyonight&hide_border=true&background=0D1117&border=0066FF&stroke=0066FF&ring=00FFCC&fire=00FFCC&currStreakNum=00FFCC&currStreakLabel=00FFCC&sideNums=c9d1d9&sideLabels=c9d1d9&dates=8b949e">
+</p>
+
+<!-- ===================== ACTIVITY OVERVIEW ===================== -->
+
+## 📈 &nbsp; Activity Overview
+
+<p align="center">
+  <img width="98%" alt="profile summary" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=abraxas0001&theme=tokyonight">
 </p>
 
 <p align="center">
-  <img alt="Trophies" src="https://github-profile-trophy.vercel.app/?username=abraxas0001&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&margin-h=8&column=7&row=1">
+  <img height="195" alt="repos per language" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=abraxas0001&theme=tokyonight">
+  <img height="195" alt="most committed language" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=abraxas0001&theme=tokyonight">
 </p>
 
-<!-- ===================== SNAKE ===================== -->
+<p align="center">
+  <img height="195" alt="stats breakdown" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=abraxas0001&theme=tokyonight">
+  <img height="195" alt="productive time" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=abraxas0001&theme=tokyonight&utcOffset=5.5">
+</p>
+
+<p align="center">
+  <img alt="contribution graph" src="https://github-readme-activity-graph.vercel.app/graph?username=abraxas0001&bg_color=0D1117&color=00FFCC&line=0066FF&point=00FFCC&area=true&area_color=00FFCC&title_color=00FFCC&hide_border=true&custom_title=Contribution%20Graph">
+</p>
+
+<!-- ===================== CONTRIBUTION SNAKE ===================== -->
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/abraxas0001/abraxas0001/output/snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/abraxas0001/abraxas0001/output/snake.svg">
-    <img alt="Contribution snake" src="https://raw.githubusercontent.com/abraxas0001/abraxas0001/output/snake-dark.svg">
+    <img alt="snake" src="https://raw.githubusercontent.com/abraxas0001/abraxas0001/output/snake-dark.svg">
   </picture>
 </p>
 
-![divider](https://capsule-render.vercel.app/api?type=rect&color=0:00FFCC,100:0066FF&height=3&section=header)
+![divider](https://capsule-render.vercel.app/api?type=rect&color=0:00FFCC,100:0066FF&height=2&section=header)
 
 <!-- ===================== FOOTER ===================== -->
 
@@ -180,6 +186,6 @@ Each one ships with a live demo — the links go straight to the running thing.
   <i>If something here looks finished, it's only because you can't see the branch where it isn't.</i>
 </p>
 
-<picture>
-  <img alt="footer" src="https://capsule-render.vercel.app/api?type=waving&color=0:0066FF,100:00FFCC&height=140&section=footer&text=Let's%20build%20something&fontColor=ffffff&fontSize=22&fontAlignY=72&animation=fadeIn">
-</picture>
+<p align="center">
+  <img alt="footer" src="https://capsule-render.vercel.app/api?type=waving&color=0:0066FF,100:00FFCC&height=120&section=footer">
+</p>
