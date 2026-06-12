@@ -188,3 +188,7 @@
 <p align="center">
   <img alt="footer" src="https://capsule-render.vercel.app/api?type=waving&color=0:0066FF,100:00FFCC&height=120&section=footer">
 </p>
+
+<!-- followers-badge-start -->
+[Follow on GitHub](https://github.com/abraxas0001) • Followers: **2**
+<!-- followers-badge-end -->
