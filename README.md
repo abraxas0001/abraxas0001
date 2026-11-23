@@ -1,8 +1,8 @@
 <!-- ===================== HEADER ===================== -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:00FFCC,100:0066FF&height=200&section=header&text=Neelmani%20Chourasia&fontColor=ffffff&fontSize=50&animation=fadeIn&fontAlignY=38&desc=full-stack%20engineer%20//%20security-curious%20//%20ships%20to%20production&descAlignY=58&descSize=16">
-  <img alt="Neelmani Chourasia — full-stack developer and cyber security engineer" src="https://capsule-render.vercel.app/api?type=waving&color=0:00FFCC,100:0066FF&height=200&section=header&text=Neelmani%20Chourasia&fontColor=ffffff&fontSize=50&animation=fadeIn&fontAlignY=38&desc=full-stack%20engineer%20//%20security-curious%20//%20ships%20to%20production&descAlignY=58&descSize=16">
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:00FFCC,100:0066FF&height=200&section=header&text=Neelmani%20Chourasia&fontColor=ffffff&fontSize=50&animation=fadeIn&fontAlignY=38&desc=full-stack%20engineer%20//%20cyber%20security%20engineer%20//%20ships%20to%20production&descAlignY=58&descSize=16">
+  <img alt="Neelmani Chourasia — full-stack developer and cyber security engineer" src="https://capsule-render.vercel.app/api?type=waving&color=0:00FFCC,100:0066FF&height=200&section=header&text=Neelmani%20Chourasia&fontColor=ffffff&fontSize=50&animation=fadeIn&fontAlignY=38&desc=full-stack%20engineer%20//%20cyber%20security%20engineer%20//%20ships%20to%20production&descAlignY=58&descSize=16">
 </picture>
 
 <p align="center">
