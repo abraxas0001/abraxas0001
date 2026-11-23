@@ -44,6 +44,10 @@
 
 🐧 &nbsp;Off the clock I'm in **Kali / Linux**, breaking things on purpose so they break less on purpose later.
 
+🛡️ &nbsp;Also a **cyber security engineer** — web, API and source-code pentests (VAPT), with every fix backed by a test that fails before it and passes after.
+
+🏢 &nbsp;Currently **Full-Stack Developer at AI Linc**, and founding engineer of **[Audix GRC](https://docs.audixgrc.com)** — multi-tenant compliance automation for SOC 2 · ISO 27001 · DPDP.
+
 ☕ &nbsp;Big on clean loading states, sane edge cases, and a deeply personal relationship with `git revert`.
 
 <br clear="right">
@@ -56,6 +60,7 @@
 
 > Real, merged-to-main work across **multiple organizations**. The clients stay unnamed; the shipping speaks for itself.
 
+- 🛡️ &nbsp;**[Audix GRC](https://docs.audixgrc.com)** — compliance automation platform built from architecture to production: PostgreSQL row-level security, 18 cloud & SaaS integrations, AI questionnaire answering and an MCP server for AI agents.
 - 🏗️ &nbsp;**Built whole products end-to-end** — full **frontends** wired straight into the **backend**: APIs, auth, real-time data, and all the connectors that make a product actually *work*.
 - 🧱 &nbsp;**Full-stack across several orgs** — **40+ PRs merged to main**, from first commit to production, spanning learning platforms, health/fitness tooling, and consumer apps.
 - 🤖 &nbsp;**AI-heavy product features** — interview engines, scoring/evaluation, in-browser voice, resume tooling — the hard, fiddly stuff that ships *and* stays up.
@@ -88,12 +93,10 @@
 
 <br>
 
-- **ANY-MEDIA-DOWNLOADER** — multi-platform social media downloader.
 - **Caption-Master-Pro** — bulk caption editor with 9 modes.
 - **Neko-Album-Maker** — turns loose media into clean albums.
 - **Neko-File-Converter** — on-the-fly file conversion.
 - **File-Sharing-Bot** — managed file sharing.
-- **CLI-Tg-Account-Homies** — CLI account tooling.
 
 </details>
 
@@ -102,7 +105,6 @@
 
 <br>
 
-- **your-goto-num** — virtual phone-number / SMS-verification service.
 - **E-Com-Cart** — e-commerce cart implementation.
 - **Ai-surveyor** — Next.js survey app.
 - **Hobby-Hive** — hobby community platform.
@@ -119,8 +121,8 @@
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=ts,js,python,cpp,java,html,css,bash&perline=8&theme=dark" alt="languages"><br>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,nodejs,express,mongodb,mysql,firebase&perline=8&theme=dark" alt="frameworks"><br>
-  <img src="https://skillicons.dev/icons?i=docker,aws,git,kali,linux,vscode,figma&perline=8&theme=dark" alt="tools">
+  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,nodejs,express,nestjs,django,postgres,redis,mongodb,mysql,firebase&perline=12&theme=dark" alt="frameworks"><br>
+  <img src="https://skillicons.dev/icons?i=docker,aws,gcp,git,kali,linux,vscode,figma&perline=8&theme=dark" alt="tools">
 </p>
 
 <p align="center">
