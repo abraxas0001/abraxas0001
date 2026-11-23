@@ -1,13 +1,13 @@
 <!-- ===================== HEADER ===================== -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:00FFCC,100:0066FF&height=200&section=header&text=Abra&fontColor=ffffff&fontSize=70&animation=fadeIn&fontAlignY=38&desc=full-stack%20engineer%20//%20security-curious%20//%20ships%20to%20production&descAlignY=58&descSize=16">
-  <img alt="Abra — full-stack engineer with a security accent" src="https://capsule-render.vercel.app/api?type=waving&color=0:00FFCC,100:0066FF&height=200&section=header&text=Abra&fontColor=ffffff&fontSize=70&animation=fadeIn&fontAlignY=38&desc=full-stack%20engineer%20//%20security-curious%20//%20ships%20to%20production&descAlignY=58&descSize=16">
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:00FFCC,100:0066FF&height=200&section=header&text=Neelmani%20Chourasia&fontColor=ffffff&fontSize=50&animation=fadeIn&fontAlignY=38&desc=full-stack%20engineer%20//%20security-curious%20//%20ships%20to%20production&descAlignY=58&descSize=16">
+  <img alt="Neelmani Chourasia — full-stack developer and cyber security engineer" src="https://capsule-render.vercel.app/api?type=waving&color=0:00FFCC,100:0066FF&height=200&section=header&text=Neelmani%20Chourasia&fontColor=ffffff&fontSize=50&animation=fadeIn&fontAlignY=38&desc=full-stack%20engineer%20//%20security-curious%20//%20ships%20to%20production&descAlignY=58&descSize=16">
 </picture>
 
 <p align="center">
   <a href="https://github.com/DenverCoder1/readme-typing-svg">
-    <img alt="tagline" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=900&color=00FFCC&center=true&vCenter=true&width=640&height=55&lines=Full-stack+engineer+who+ships+real+products;Frontend+craft+%E2%80%A2+AI+features+%E2%80%A2+systems;Lives+in+Kali+after+hours.+Vuln-curious.">
+    <img alt="tagline" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=900&color=00FFCC&center=true&vCenter=true&width=640&height=55&lines=Full-Stack+Developer+%40+AI+Linc;Cyber+Security+Engineer+%E2%80%A2+VAPT+%E2%80%A2+AppSec;Founding+engineer+of+Audix+GRC;Next.js+%E2%80%A2+NestJS+%E2%80%A2+Django+%E2%80%A2+AWS;Lives+in+Kali+after+hours.+Vuln-curious.">
   </a>
 </p>
 
@@ -73,20 +73,19 @@
 
 <!-- ===================== PROJECTS ===================== -->
 
-## 🧩 &nbsp; Projects
+## 🌟 &nbsp; Featured Projects
 
-<details>
-  <summary><b>🌐 &nbsp; Web apps & platforms</b></summary>
+| Project | What it is | Stack | Links |
+|---|---|---|---|
+| **[Homly Paws](https://github.com/Homly-Paws/Frontend)** | Premium pet-boarding marketplace: public site plus owner and host dashboards | Next.js 15 · Fastify · Prisma · PostgreSQL | [Live](https://homly-paws.vercel.app) · [API](https://github.com/Homly-Paws/Backend) |
+| **[Code-X](https://github.com/abraxas0001/Code-X)** | AI-powered DSA learning platform with a Gemini Socratic tutor and a Monaco editor | React · TypeScript · Vite · Gemini | [Live](https://code-x-eta-khaki.vercel.app) |
+| **[COUP](https://github.com/abraxas0001/COUP)** | Real-time multiplayer bluffing card game for 2–6 players | Node.js · Express · Socket.io | [Live](https://coup-multi.vercel.app) |
+| **[Aurae](https://github.com/abraxas0001/aurae)** | Recipe platform with an AI chef chat and daily AI-generated recipes | Express · EJS · PostgreSQL · Gemini | [Code](https://github.com/abraxas0001/aurae) |
+| **[AutoPay Alert X](https://github.com/abraxas0001/AUTOPAY-ALERT-X)** | Task and subscription manager with smart payment alerts | TypeScript · Gemini | [Live](https://autopay-alert-x-tryt.vercel.app) |
+| **[Algo Path Visualizer](https://github.com/abraxas0001/Algo-Path-Visualizer)** | Pathfinding and maze visualizer: Dijkstra, A*, greedy, BFS, DFS | JavaScript | [Live](https://algo-path-visualizer-five.vercel.app) |
 
-<br>
+## 🧩 &nbsp; More Projects
 
-- **Code-X** — AI-powered DSA learning platform: Monaco editor (Py/JS/C++/Java), Gemini Socratic tutor, complexity visualization, gamification & activity heatmap. → [Live](https://code-x-eta-khaki.vercel.app)
-- **COUP** — real-time multiplayer web adaptation of the social-deduction card game. *Deceive · Manipulate · Survive.* → [Live](https://coup-multi.vercel.app)
-- **AutoPay Alert X** — anime-inspired task & subscription manager with smart payment alerts. → [Live](https://autopay-alert-x-tryt.vercel.app)
-- **Algorithm Path Visualizer** — interactive pathfinding & maze visualizer (Dijkstra, A\*, Greedy, BFS, DFS). → [Live](https://algo-path-visualizer-five.vercel.app)
-- **FableFoundry** — interactive storytelling platform with rotating narrator avatars and a hand-forged aesthetic.
-
-</details>
 
 <details>
   <summary><b>🤖 &nbsp; Telegram bots</b></summary>
@@ -111,6 +110,7 @@
 - **Portfolio-Showcase** — open portfolio template.
 - **DataseExtraction** — automated data extraction tooling.
 
+- **FableFoundry** — interactive storytelling platform with rotating narrator avatars and a hand-forged aesthetic.
 </details>
 
 ![divider](https://capsule-render.vercel.app/api?type=rect&color=0:00FFCC,100:0066FF&height=2&section=header)
@@ -150,20 +150,6 @@
 <!-- ===================== ACTIVITY OVERVIEW ===================== -->
 
 ## 📈 &nbsp; Activity Overview
-
-<p align="center">
-  <img width="98%" alt="profile summary" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=abraxas0001&theme=tokyonight">
-</p>
-
-<p align="center">
-  <img height="195" alt="repos per language" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=abraxas0001&theme=tokyonight">
-  <img height="195" alt="most committed language" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=abraxas0001&theme=tokyonight">
-</p>
-
-<p align="center">
-  <img height="195" alt="stats breakdown" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=abraxas0001&theme=tokyonight">
-  <img height="195" alt="productive time" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=abraxas0001&theme=tokyonight&utcOffset=5.5">
-</p>
 
 <p align="center">
   <img alt="contribution graph" src="https://github-readme-activity-graph.vercel.app/graph?username=abraxas0001&bg_color=0D1117&color=00FFCC&line=0066FF&point=00FFCC&area=true&area_color=00FFCC&title_color=00FFCC&hide_border=true&custom_title=Contribution%20Graph">
